@@ -7,7 +7,7 @@ const Company = () => {
       className={`sm:my-[5rem] my-3rem justify-center mt-10 ml-8 pt-10 sm:pl-8 pl-2 border-[1px] w-[95%] rounded-md`}
     >
       <div className={`${layout.section} `}>
-        <div className="flex flex-col items-start justify-between w-[70%]">
+        <div className="flex flex-col items-start justify-between sm:w-[70%] w-[90%]">
           <h4
             className={`${styles.heading5_start} ${styles.paddingX} font-medium text-[25px]`}
           >

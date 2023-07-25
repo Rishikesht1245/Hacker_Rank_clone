@@ -53,6 +53,9 @@ const Footer = () => {
           <p className="font-poppins font-normal text-end text-[14px] leading-[27px] text-slate-900">
             Copyright &copy; 2023 HackerRank.
           </p>
+          <p className="font-poppins font-normal text-end text-[12px] leading-[27px] text-slate-900">
+            Privacy policy
+          </p>
         </section>
       </div>
     </footer>

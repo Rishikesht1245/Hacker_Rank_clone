@@ -6,13 +6,11 @@ const Hero = () => {
   return (
     <section className="flex flex-col items-center justify-center mt-20 relative">
       {/* Heading and paragraph */}
-      <div className="flex flex-col w-[60%] gap-10">
-        <h2
-          className={`${styles.heading2} sm:text-center text-start leading-10`}
-        >
+      <div className="flex flex-col w-[60%] sm:gap-10 gap-5">
+        <h2 className={`${styles.heading2}`}>
           Skills speak louder <br className="sm:block hidden" /> than words
         </h2>
-        <p className={`${styles.paragraph} sm:text-center w-[95%] text-start`}>
+        <p className={`${styles.paragraph} sm:text-center sm:w-[95%] w-full`}>
           We help companies develop the strongest tech teams around. We help
           candidates sharpen their tech skills and pursue job opportunities.
         </p>
@@ -23,13 +21,13 @@ const Hero = () => {
         <SignUpBTN width="10rem" text="Sign up" />
         <button
           type="button"
-          className="w-[10rem] border-[1px] border-black font-semibold font-poppins text-[14px] h-[40px] rounded-md hover:bg-slate-200"
+          className="w-[10rem] border-[1px] border-black font-semibold font-poppins text-[14px] h-[40px] rounded-md hover:bg-blue-600 hover:text-white"
         >
           Request Demo
         </button>
       </div>
 
-      <p className={`${styles.paragraph} mt-10 mb-7 text-center`}>
+      <p className={`${styles.paragraph} mt-10 mb-7 text-center sm:px-0 px-5`}>
         Over 40% of developers worldwide and 3,000 companies use HackerRank
       </p>
 

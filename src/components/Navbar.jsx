@@ -10,9 +10,11 @@ const Navbar = () => {
     <section className="flex flex-col w-full z-[99]">
       {/* contact and login */}
       <div className="sm:flex flex-row justify-end items-center gap-5 bg-black text-dimWhite w-full h-[43px] hidden">
-        <a href="#">Contact Us</a>
+        <a href="#" className="hover:text-green-600">
+          Contact Us
+        </a>
         <div className="border-l-dimWhite border-l-2 h-[20px]" />
-        <a href="#" className="mr-10">
+        <a href="#" className="mr-10 hover:text-green-600 ">
           Login
         </a>
       </div>
@@ -28,26 +30,44 @@ const Navbar = () => {
           </div>
           {/* Menus */}
           <div className="sm:flex flex-row justify-between items-center gap-5 hidden">
-            <a href="#" className="font-poppins font-semibold px-3 text-[14px]">
+            <a
+              href="#"
+              className="font-poppins font-semibold px-3 text-[14px] hover:text-green-600"
+            >
               Products{" "}
             </a>
-            <a href="#" className="font-poppins font-semibold px-3 text-[14px]">
+            <a
+              href="#"
+              className="font-poppins font-semibold px-3 text-[14px] hover:text-green-600"
+            >
               Resources{" "}
             </a>
-            <a href="#" className="font-poppins font-semibold px-3 text-[14px]">
+            <a
+              href="#"
+              className="font-poppins font-semibold px-3 text-[14px] hover:text-green-600"
+            >
               Solutions{" "}
             </a>
-            <a href="#" className="font-poppins font-semibold px-3 text-[14px]">
+            <a
+              href="#"
+              className="font-poppins font-semibold px-3 text-[14px] hover:text-green-600"
+            >
               Pricing{" "}
             </a>
           </div>
           {/* Sign up */}
           <div className="sm:flex flex-row justify-between items-center gap-5 hidden">
-            <a href="#" className="font-poppins font-semibold px-3 text-[14px]">
+            <a
+              href="#"
+              className="font-poppins font-semibold px-3 text-[14px] hover:text-green-600"
+            >
               For candidates{" "}
             </a>
             <div className="border-l-black border-l-2 h-[20px]" />
-            <a href="#" className="font-poppins font-semibold px-3 text-[14px]">
+            <a
+              href="#"
+              className="font-poppins font-semibold px-3 text-[14px] hover:text-green-600"
+            >
               Request Demo{" "}
             </a>
             <div>

@@ -19,7 +19,9 @@ const Interview = () => {
       >
         : : Technical interviews : :
       </p>
-      <h2 className={`${styles.heading3}`}>
+      <h2
+        className={`sm:${styles.heading3} ${styles.heading3_start} sm:px-0 px-5`}
+      >
         Interview like it’s <span className="text-green-600">2023</span>
       </h2>
 
@@ -33,7 +35,7 @@ const Interview = () => {
       </p>
       <SignUpBTN width="10rem" text="Learn more" />
 
-      <div className="flex flex-row justify-between items-center gap-[75px] flex-wrap my-7">
+      <div className="flex flex-row justify-between items-center gap-[75px] flex-wrap my-7 sm:px-0 px-5">
         <img src={tool1} alt="tool1" />
         <img src={tool2} alt="tool2" />
         <img src={tool3} alt="tool3" />

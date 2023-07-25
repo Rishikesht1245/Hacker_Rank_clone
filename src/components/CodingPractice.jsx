@@ -17,7 +17,7 @@ const CodingPractice = () => {
             Explore and expand your skills.
           </h4>
           <p
-            className={` text-slate-300 font-normal  pr-[100px] ${styles.paragraph_start}`}
+            className={` text-slate-300 font-normal  sm:pr-[100px] ${styles.paragraph_start}`}
           >
             Every idea has a first line of code. Prep for jobs and sharpen your
             skills alongside a global community of developers. Access the

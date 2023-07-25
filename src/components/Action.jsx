@@ -19,7 +19,7 @@ const Action = () => {
           the tools they need to showcase their skills, passion, and potential.
         </p>
       </div>
-      <div className="w-[45%] flex flex-row justify-between items-center gap-10 font-bold my-5">
+      <div className="sm:w-[45%] w-[85%] flex flex-row justify-between items-center gap-10 font-bold my-5">
         <a href="#" className="hover:text-green-600">
           Prep
         </a>
