@@ -6,7 +6,7 @@ const BinaryTree = () => {
     return (
       <section
         key={content.id}
-        className={`${layout.section} items-start mt-10 ml-8 rounded-md pt-10 pl-10 gap-8 border-[1px] w-[95%]`}
+        className={`${layout.section} items-start mt-10 sm:ml-8 ml-4 rounded-md pt-10 sm:pl-10 gap-8 border-[1px] sm:w-[95%] w-[90%]`}
       >
         <div
           className={`flex flex-col flex-1 gap-8 mt-10 items-start ${styles.paddingX}`}

@@ -30,7 +30,7 @@ const Challenges = () => {
           countries around the world, trust HackerRank
         </p>
 
-        <SignUpBTN width="11rem" text="Request a demo" />
+        <SignUpBTN width="11rem" text="Request a demo " className="mb-5" />
       </div>
     </section>
   );

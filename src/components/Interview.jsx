@@ -26,7 +26,7 @@ const Interview = () => {
       </h2>
 
       <p
-        className={`${styles.paragraph} w-[60%] text-slate-700 sm:text-center text-start`}
+        className={`${styles.paragraph} sm:w-[60%] w-[90%] text-slate-700 sm:text-center text-start`}
       >
         Ditch out of reach and out of touch interview questions about golf balls
         and 747s — and turn off your clunky screen share for good. Code, create,
@@ -35,15 +35,44 @@ const Interview = () => {
       </p>
       <SignUpBTN width="10rem" text="Learn more" />
 
-      <div className="flex flex-row justify-between items-center gap-[75px] flex-wrap my-7 sm:px-0 px-5">
-        <img src={tool1} alt="tool1" />
-        <img src={tool2} alt="tool2" />
-        <img src={tool3} alt="tool3" />
-        <img src={tool4} alt="tool4" />
-        <img src={tool5} alt="tool5" />
-        <img src={tool6} alt="tool6" />
-        <img src={tool7} alt="tool7" />
+      <div className="flex flex-row justify-between items-center gap-[75px] flex-wrap my-4 mb-4 sm:px-0 px-5 group w-[90%] h-10">
+        <img
+          src={tool1}
+          alt="tool1"
+          className="transition-all duration-1000 transform  hidden group-hover:translate-y-0 group-hover:block"
+        />
+        <img
+          src={tool2}
+          alt="tool2"
+          className="transition-all duration-1000 transform  hidden group-hover:translate-y-0 group-hover:block"
+        />
+        <img
+          src={tool3}
+          alt="tool3"
+          className="transition-all duration-1000 transform  hidden group-scroll:translate-y-0 group-hover:block"
+        />
+        <img
+          src={tool4}
+          alt="tool4"
+          className="transition-all duration-1000 transform  hidden group-hover:translate-y-0 group-hover:block"
+        />
+        <img
+          src={tool5}
+          alt="tool5"
+          className="transition-all duration-1000 transform  hidden group-hover:translate-y-0 group-hover:block"
+        />
+        <img
+          src={tool6}
+          alt="tool6"
+          className="transition-all duration-1000 transform  hidden group-hover:translate-y-0 group-hover:block"
+        />
+        <img
+          src={tool7}
+          alt="tool7"
+          className="transition-all duration-1000 transform  hidden group-hover:translate-y-0 group-hover:block"
+        />
       </div>
+
       <div className="flex justify-center">
         <img
           src={interview}

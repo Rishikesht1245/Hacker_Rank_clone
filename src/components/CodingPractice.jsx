@@ -3,9 +3,9 @@ import styles, { layout } from "../styles";
 
 const CodingPractice = () => {
   return (
-    <section className="flex items-center justify-center mt-10">
+    <section className="flex items-center justify-center mt-10 sm:pl-0 pl-2">
       <div
-        className={`${layout.section} justify-center items-center w-[95%] h-[50%] rounded-md bg-slate-900`}
+        className={`${layout.section} justify-center items-center sm:w-[95%] w-[90%] h-[50%] rounded-md bg-slate-900`}
       >
         <div className="flex flex-col items-start gap-8 flex-1 rounded-md p-5 px-10">
           <p
@@ -32,7 +32,7 @@ const CodingPractice = () => {
             Sign up and practice <span className="text-xl">&#8594;</span>
           </button>
         </div>
-        <div className="flex-1  bg-slate-900">
+        <div className="flex-1  bg-slate-900 sm:pl-0 pl-4">
           <img src={candidate} alt="Candidate" className="w-[90%] h-[90%]" />
         </div>
       </div>
